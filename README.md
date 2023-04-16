@@ -1,16 +1,43 @@
-# carbon_tracker
+# Green Guild
 
-A new Flutter project.
+Green Guild help individuals track and reduce their carbon emissions/ carbon footprints to mitigate the impact of climate change on the environment. It also helps in educating people about the carbon emissions associated with various activities and empowering individuals to take action to reduce their carbon footprint.
 
-## Getting Started
+## Tech Stack
 
-This project is a starting point for a Flutter application.
+- Backend: Django / REST APIs
+- Frontend: Flutter
 
-A few resources to get you started if this is your first Flutter project:
+## Deploying the frontend
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+To deploy this project run:
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+For Backend:
+
+```python
+    create venv
+    pip -r requirements
+    python manage.py runserver
+```
+
+For frontend:
+
+```dart
+  flutter clean;
+  flutter pub get;
+  flutter run;
+```
+
+## Libraries and Dependencies
+
+Flutter Dependencies:
+
+- http: ^0.13.5
+- provider: ^6.0.5
+- syncfusion_flutter_charts: ^21.1.39
+- google_fonts: ^4.0.3
+
+_Backend Dependencies:_
+
+- Django==4.2
+- dnspython==2.3.0
+- sqlparse==0.4.3
